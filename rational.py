@@ -2,7 +2,8 @@
 # a = 1/2
 # b = 1/2
 # operand = '+'
-
+# logger as log
+#log.logger(f'{a} + {b} = {result}')  вставлять после каждого result 
 def calc_rational(x, y, znak):
     global a
     global b
