@@ -4,7 +4,8 @@
 # operand = '+'
 # logger as log
 #log.logger(f'{a} + {b} = {result}')  вставлять после каждого result 
-def calc_rational(x, y, znak):
+#def calc_rational(type, a, operand, b):  eсли type == 2 то делать расчёт если 1 то нет) для комплексных наоборот
+def calc_rational(x, y, znak): 
     global a
     global b
     global operand
