@@ -1,10 +1,7 @@
 #файл объединяет отдельные методы
 import view as v
-import rational as r
-import logger as l
+import rational_calc as r
 
-
-def button_click():# Опишим метод кнопки
-    print(r.calc(v.input_data()))
-    
-#print(v.input_data())
+def button_click():# Опишем метод кнопки
+    a, b, c = v.input_data()
+    print(r.calc(a, b, c))

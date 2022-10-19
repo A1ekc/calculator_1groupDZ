@@ -1,3 +1,3 @@
-import controller as cc
+from controller import button_click
 
-cc.button_click()
+button_click()
